@@ -365,6 +365,28 @@ public final class MusicUtils {
     }
 
     /**
+     * AlarmSet.
+     */
+    public static boolean getAlarmSet() {
+        if (mService != null) {
+            try {
+                return mService.getAlarmSet();
+            } catch (final RemoteException ignored) {
+            }
+        }
+        return false;
+    }
+
+    public static void setAlarmSet(boolean enable) {
+        if (mService != null) {
+            try {
+                mService.setAlarmSet(enable);
+            } catch (final RemoteException ignored) {
+            }
+        }
+    }
+
+    /**
      * @return The current album name.
      */
     public static final String getAlbumName() {

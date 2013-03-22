@@ -166,4 +166,12 @@
     <string name="empty_favorite">Songs you mark as favorites will be shown here.</string>
     <string name="empty_recent">Albums you have listened to will show up here. Try playing some music.</string>
 
+    <!-- Sleep Timer -->
+    <string name="menu_sleep_mode">Sleep Timer</string>
+    <string name="cancel_sleep_mode">Cancel Sleep Timer</string>
+    <string name="select_quit_time">Set timer to stop the player (in mins)</string>
+    <string name="quit_warining">Player will stop playing after %1$s minute(s)</string>
+    <string name="min_interval">1</string>
+    <string name="max_interval">90</string>
+    <string name="default_interval">30</string>
 </resources>
